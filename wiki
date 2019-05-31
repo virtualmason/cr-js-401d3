@@ -1,1 +1,5 @@
 
+SQL VS NOSQL
+SQL is for things that use a lot of computational power and NOSQL is for when speed is needed and low computational power.
+SQL uses tables and NOSQL uses a json like syntax.
+SQL has longer setup time but more stable and NOSQL has short set up time and less stable.
