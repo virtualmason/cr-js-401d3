@@ -1,0 +1,2 @@
+On the front end do a post. If you are using postman you can just add / 'data'. On the backend  req.body or send same way and on back end
+have and endpoint like post('store/:id',(rew, res) ={} .... and use req.param.id and do what you wish with it.
