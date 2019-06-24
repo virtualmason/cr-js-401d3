@@ -1,0 +1,20 @@
+Saas extends react to same time and make it easier to reuse code. It has the ability to use functions, use variables and reuse css code blocks.
+
+for example, if you write #mixin you can add CSS properties with vaiables and pass data to them: 
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+.box { @include transform(rotate(30deg)); }
+
+You can extend one CSS block of code wiht another with extentions like:
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.message {
+  @extend %message-shared;
+}
