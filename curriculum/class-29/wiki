@@ -1,0 +1,1 @@
+The main parts of React Router are The browserRouter which is a wrapper for the App so all routes are rendered. The Link which is like a hyperlink to where you want to go. And the path and component which is the path the Link points to and the component which will get rendered.
